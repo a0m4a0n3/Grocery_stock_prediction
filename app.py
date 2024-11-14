@@ -177,7 +177,7 @@ if analyze_clicked:
 # Display analysis results if the analyze button is active
 if st.session_state.analyze:
     st.subheader("Customer Type Analysis")
-    data_1 = pd.read_csv(r'C:\Users\DELL PC\Downloads\Grocery-stock-prediction-main\sample_sales_data.csv')
+    data_1 = pd.read_csv(r'sample_sales_data.csv')
 
     
     # Bar chart for customer_type with horizontal labels
